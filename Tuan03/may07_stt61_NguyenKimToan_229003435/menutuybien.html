@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1000px;
+            background-color: darkgray;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 30px;
+            left: 200px;
+        }
+        
+        header h2 {
+            position: absolute;
+            top: 100px;
+            left: 350px;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 150px;
+            background-color: lavenderblush;
+            list-style-type: none;
+            line-height: 50px;
+            border: 1px dotted red;
+            position: absolute;
+        }
+        
+        .menu li:hover {
+            background-color: rgba(243, 225, 186, 0.979);
+        }
+        
+        .li:hover {
+            color: crimson;
+            font-weight: bold;
+        }
+        
+        nav {
+            position: relative;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 40px;
+            right: 30px;
+            transform: rotate(20deg);
+        }
+        
+        .menu li:nth-child(4) {
+            top: 10px;
+            right: 230px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 10px;
+            right: 430px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 10px;
+            right: 630px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 40px;
+            right: 830px;
+            line-height: 50px;
+            transform: rotate( -20deg);
+            text-indent: 20px;
+        }
+        
+        li input {
+            width: 100px;
+        }
+        
+        #txtName {
+            width: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src=" https://media.istockphoto.com/id/1147521090/vi/anh/n%E1%BB%81n-tr%E1%BB%ABu-t%C6%B0%E1%BB%A3ng-ph%C3%B2ng-studio-tr%E1%BA%AFng-tr%E1%BB%91ng-r%E1%BB%97ng.jpg?s=612x612&w=0&k=20&c=0nlsN2I1I1PtD2D4HujGdkRLcP1Jxrdyc_ZOycxPk9M= " alt="" srcset=""
+                height="200" width="1000">
+            <h1>TRUONG DAI HOC CONG NGHIEP TP.HCM</h1>
+            <H2>KHOA CONG NGHE THONG TIN</H2>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#"> ITem1</a>
+                </li>
+                <li>
+                    <a href="#"> ITem2</a>
+                </li>
+                <li>
+                    <a href="#"> ITem3</a>
+                </li>
+                <li>
+                    <a href="#"> ITem4</a>
+                </li>
+                <li>
+                    <a href="#"> ITem5</a>
+                    <input type="text" name="txtName" id="txtName">
+                    <button type="submit">GO</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+
+</html>
